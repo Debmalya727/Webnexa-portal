@@ -34,25 +34,25 @@ export const Contact = () => {
     setIsSubmitting(true);
 
     // EmailJS configuration
-    const serviceId = 'service_wenexa'; // You'll need to configure this
-    const templateId = 'template_wenexa'; // You'll need to configure this
-    const publicKey = 'YOUR_EMAILJS_PUBLIC_KEY'; // You'll need to configure this
+    const serviceId = 'service_1buthja'; // You'll need to configure this
+    const templateId = 'template_z9sjyl2'; // You'll need to configure this
+    const publicKey = '2ubNVeizLVSHrSJDo'; // You'll need to configure this
 
     try {
       // For demo purposes, we'll simulate the submission
       // In production, uncomment the emailjs.send call
       
-      // await emailjs.send(
-      //   serviceId,
-      //   templateId,
-      //   {
-      //     from_name: formData.name,
-      //     from_email: formData.email,
-      //     phone: formData.phone,
-      //     message: formData.message,
-      //   },
-      //   publicKey
-      // );
+      await emailjs.send(
+        serviceId,
+        templateId,
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          phone: formData.phone,
+          message: formData.message,
+        },
+        publicKey
+      );
 
       // Simulate API call
       await new Promise((resolve) => setTimeout(resolve, 1500));

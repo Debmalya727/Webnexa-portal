@@ -53,7 +53,7 @@ export const Navbar = () => {
               />
             </div>
             <span className="text-2xl font-bold gradient-text group-hover:scale-105 transition-transform">
-              WENEXA
+              WEBNEXA
             </span>
           </a>
 

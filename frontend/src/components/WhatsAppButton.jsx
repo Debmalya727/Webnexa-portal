@@ -12,7 +12,7 @@ export const WhatsAppButton = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  const whatsappNumber = '15551234567'; // Replace with actual number
+  const whatsappNumber = '+919674171451'; // Replace with actual number
   const whatsappMessage = 'Hi WENEXA! I would like to discuss a project.';
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
