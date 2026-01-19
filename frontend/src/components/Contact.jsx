@@ -81,7 +81,7 @@ export const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'help@wenexa.com',
+      value: 'webnexa.team@gmail.com',
       link: 'mailto:webnexa.team@gmail.com',
     },
     {
