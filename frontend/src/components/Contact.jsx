@@ -87,13 +87,13 @@ export const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: '+91 9674171451',
+      link: 'tel:+91 9674171451',
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Kolkata,West Bengal',
       link: '#',
     },
   ];
